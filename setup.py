@@ -7,6 +7,6 @@ setup(name='targen',
       author='Pavel Lutskov',
       author_email='pavel.lutskov@gmail.com',
       licence='MIT',
-      py_modules='targen',
+      py_modules=['targen'],
       python_requires=">=3.6"
      )
