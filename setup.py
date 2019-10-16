@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='targen',
-      version='0.1',
+      version='0.1.2',
       description='Tar utility as a generator yielding blocks',
       url='https://github.com/ltskv/targen',
       author='Pavel Lutskov',
