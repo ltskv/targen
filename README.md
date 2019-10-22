@@ -6,14 +6,14 @@
 from targen import targen
 g = targen('directory_with/stuff', base='directory_with')
 
-for block in g:  # len(block) is 512
+for block in g:
     do_stuff(block)
 ```
 
 Which is roughly equivalent to 
 
 ```
-tar -cf stuff.tar -C directory_with stuff
+tar -c -C directory_with  stuff | do_stuff
 ```
 
 ## Why?
